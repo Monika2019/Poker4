@@ -31,7 +31,7 @@ if game_type == 1:
     record_csv_deck(player_c,'争上游03副牌.csv')
 if game_type == 2:
     deal_to_multi_players(deck,player_a,player_b,player_c,player_d)
-    (player_a,'桥牌01副牌.csv')
+    record_csv_deck(player_a,'桥牌01副牌.csv')
     record_csv_deck(player_b,'桥牌02副牌.csv')
     record_csv_deck(player_c,'桥牌03副牌.csv')
     record_csv_deck(player_d,'桥牌04副牌.csv')
